@@ -36,3 +36,5 @@ Firebase FireStore 사용
 1.해상도 관련 구조 수정
 2.UIManager구조 => 싱글톤화 완료 But 씬이동시 구조 변경
 3.Login Google => 기능은 작성되었지만 Dll쪽 의존성 이슈 때문에 빌드가 안됨.
+4.게임 컨텐츠 및 전체적인 시스템 구현 
+5.Main_Lobby에서 UI기능 구현 필요
