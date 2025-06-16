@@ -41,7 +41,13 @@ Firebase FireStore 사용
 2.Addressable 시스템을 이용하여, Git URL에서 에셋 다운 받게 설정 및 실행
 
 (아직 완벽하게 분류를 해놓진 않은 상태)
-
+[
+  에셋 빌드
+    1.Google Sheet에서 추가할 UI등록 및 csv로 추출 후, 프로젝트 임포트
+    2.유니티에서 Addressable build를 통해 Hash,Json,Bunddle 제작
+    3.Git에 갱신
+    4.Enum,UIManager 갱신
+]
 
 ===================================
 미해결 LIST 
