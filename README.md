@@ -57,19 +57,6 @@ Firebase FireStore 사용
 5.Main_Lobby에서 UI기능 구현 필요
 
 ===================================
-헷갈리지 말아야할 설정
 
-| 상황                   | 추천 방식                    | 이유/설명                  |
-| -------------------- | ------------------------ | ---------------------- |
-| 프레임마다 반복, 이펙트, 단순 루프 | Coroutine                | Unity의 프레임, yield에 최적화 |
-| 네트워크, IO, 비동기, 예외/리턴 | UniTask (or Task/Async)  | GC 최소, async/await 편의  |
-| 단순 콜백                | Action, Func             | 간결, 인라인 람다, 버튼 등       |
-| 복잡한 이벤트 시스템          | delegate, event delegate | 다중 구독자, 시그니처 명확히       |
-
-Coroutine → UniTask로 교체가 가능한 곳은 교체하면 성능/코드 품질 다 올라감
-
-Action/Func으로 람다 처리하는 게 90% 실무에선 제일 효율적
-
-delegate/event는 시스템성 코드(Observer, FSM, Pub/Sub 등)에서만 진짜 권장
 
 
