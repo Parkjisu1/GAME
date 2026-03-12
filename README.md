@@ -1,5 +1,9 @@
 # Animal Kingdom | 애니멀 킹덤
 
+> **이 저장소는 게임 설계 문서 및 아키텍처 설명을 포함합니다. Unity 프로젝트 소스코드는 별도 관리됩니다.**
+>
+> **This repository contains game design documentation and architecture overview. Unity project source code is managed separately.**
+
 > 로그라이크 서바이벌 멀티플레이어 게임 — 뱀파이어 서바이버 스타일의 PvE 협동 게임
 >
 > Roguelike survival multiplayer game — Vampire Survivors style co-op with PvE-focused gameplay.
@@ -122,27 +126,6 @@ Animal Kingdom is a **roguelike auto-battler** featuring cooperative PvE gamepla
 | **Behavior Tree** | 보스 AI 의사결정 |
 | **Object Pool** | 투사체, 이펙트 재활용 |
 | **Command** | 입력 처리 및 스킬 실행 |
-
----
-
-## 시작하기 | Getting Started
-
-### 필수 요구사항
-
-- Unity 2021.3.8f 이상
-- Photon PUN2 (Asset Store에서 임포트)
-- Firebase Unity SDK
-- Google AdMob SDK
-- Android SDK
-
-### 설치
-
-1. 저장소 클론
-2. Unity에서 프로젝트 열기
-3. Photon PUN2 임포트 후 App ID 설정
-4. Firebase 프로젝트 설정 후 `google-services.json` 다운로드
-5. AdMob 광고 단위 ID 설정
-6. Android 빌드
 
 ---
 
